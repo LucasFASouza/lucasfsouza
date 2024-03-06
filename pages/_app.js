@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 import { IntlProvider } from "react-intl";
 import en from "../i18n/en.json";
 import pt from "../i18n/pt.json";
+import "@/styles/globals.css";
+
 const messages = {
   en,
   pt,
