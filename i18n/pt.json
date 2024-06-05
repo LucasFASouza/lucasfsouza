@@ -1,6 +1,6 @@
 {
-  "page.home.head.title": "Next.js i18n exemplo",
-  "page.home.head.meta.description": "Next.js i18n exemplo - Português",
-  "page.home.title": "Bem vindo à <b>pagina inicial</b>",
-  "page.home.description": "A página inicial que você está vendo agora está em português"
+  "page.home.head.title": "Lucas F. Souza",
+  "page.home.head.meta.description": "Portfólio de Lucas F. Souza",
+  "page.home.title": "Olá,\nEu sou <b>Lucas F. Souza</b>",
+  "page.home.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar."
 }
