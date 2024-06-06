@@ -1,17 +1,34 @@
 import { useRouter } from "next/router";
-import Link from "next/link";
+import { useEffect, useState } from "react";
 
-const I18nSelect = ({ locales }) => {
+const I18nSelect = () => {
   const router = useRouter();
+  const { locales } = router;
+
+  const [selectedLocale, setSelectedLocale] = useState(router.locale);
+
+  const handleLocaleChange = (event) => {
+    const newLocale = event.target.value;
+    router.push(router.pathname, router.asPath, { locale: newLocale });
+    setSelectedLocale(newLocale);
+  };
+
+  useEffect(() => {
+    setSelectedLocale(router.locale);
+  }, [router.locale]);
 
   return (
-    <nav>
+    <select
+      className="bg-[#0F0F0F] px-2 py-1 rounded"
+      value={selectedLocale}
+      onChange={handleLocaleChange}
+    >
       {[...locales].sort().map((locale) => (
-        <Link key={locale} href={router.pathname} locale={locale}>
-          <div>{locale}</div>
-        </Link>
+        <option key={locale} value={locale}>
+          {locale}
+        </option>
       ))}
-    </nav>
+    </select>
   );
 };
 
