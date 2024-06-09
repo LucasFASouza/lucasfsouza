@@ -1,6 +1,38 @@
 {
   "page.home.head.title": "Lucas F. Souza",
   "page.home.head.meta.description": "Lucas F. Souza Portfolio",
-  "page.home.title": "Hey,\nI'm <b>Lucas F. Souza</b>",
-  "page.home.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of."
+  "page.home.title": "Hey, \nI'm <b>Lucas F. Souza</b>",
+  "page.home.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
+
+  "page.resume.title": "Resumé",
+  "page.resume.jobs": [
+    {
+      "title": "Software Developer",
+      "company": "Caelum",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Alura",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
+      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Caelum",
+      "startDate": "2015-01-01",
+      "endDate": "2016-01-01",
+      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+    },
+    {
+      "title": "Software Developer",
+      "company": "Alura",
+      "startDate": "2016-01-01",
+      "endDate": "2017-01-01",
+      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+    }
+  ]
 }

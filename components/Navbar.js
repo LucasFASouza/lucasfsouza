@@ -1,18 +1,26 @@
 import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import I18nSelect from "./I18nSelect";
 
 const Navbar = () => {
+  const router = useRouter();
+
   return (
     <nav className="flex justify-between py-8">
-      <a href="/" className="font-bold text-xl">
+      <Link className="font-bold text-xl" href="/" locale={router.locale}>
         Lucas F. Souza
-      </a>
+      </Link>
       <ul className="flex gap-8 items-center">
         <li>
-          <a href="/">Home</a>
+          <Link href="/" locale={router.locale}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="/resume">Resumé</a>
+          <Link href="/resume" locale={router.locale}>
+            Resumé
+          </Link>
         </li>
         <li>
           <I18nSelect />

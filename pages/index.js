@@ -1,8 +1,8 @@
 import { FormattedMessage, useIntl } from "react-intl";
 import Layout from "../components/Layout";
+import SocialLink from "../components/SocialLink";
 
 import Head from "next/head";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home({ dir }) {
@@ -26,7 +26,9 @@ export default function Home({ dir }) {
             <h1 className="text-4xl">
               <FormattedMessage
                 id="page.home.title"
-                values={{ b: (info) => <b>{info}</b> }}
+                values={{ 
+                  b: (info) => <b>{info}</b>, 
+                 }}
               />
             </h1>
 
@@ -35,67 +37,14 @@ export default function Home({ dir }) {
             </p>
 
             <div className="flex gap-4">
-              <a
+              <SocialLink
                 href="https://linkedin.com/in/LucasFASouza"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="text-stone-400 hover:text-stone-300"
-                  size="2x"
-                />
-              </a>
-
-              <a
-                href="https://github.com/LucasFASouza"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="text-stone-400 hover:text-stone-300"
-                  size="2x"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="h-[32rem] flex flex-col justify-center w-1/2 gap-8">
-            <h1 className="text-4xl">
-              <FormattedMessage
-                id="page.home.title"
-                values={{ b: (info) => <b>{info}</b> }}
+                icon={faLinkedin}
               />
-            </h1>
-
-            <p>
-              <FormattedMessage id="page.home.description" />
-            </p>
-
-            <div className="flex gap-4">
-              <a
-                href="https://linkedin.com/in/LucasFASouza"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="text-stone-400 hover:text-stone-300"
-                  size="2x"
-                />
-              </a>
-
-              <a
+              <SocialLink
                 href="https://github.com/LucasFASouza"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="text-stone-400 hover:text-stone-300"
-                  size="2x"
-                />
-              </a>
+                icon={faGithub}
+              />
             </div>
           </div>
         </Layout>
