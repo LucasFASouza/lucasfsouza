@@ -2,18 +2,21 @@ import React from "react";
 
 const Jobs = ({ jobs }) => {
   return (
-    <div>
+    <ul>
       {jobs.map((job, index) => (
-        <div key={index}>
-          <h2>{job.title}</h2>
-          <h3>{job.company}</h3>
-          <p>
-            {job.startDate} - {job.endDate}
-          </p>
+        <li key={index} className="py-5">
+          <div className="flex justify-between">
+            <h2 className="text-lg font-bold">
+              {job.title} <span className="font-light">at</span> {job.company}
+            </h2>
+            <h3>
+              {job.startDate} - {job.endDate}
+            </h3>
+          </div>
           <p>{job.description}</p>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
 

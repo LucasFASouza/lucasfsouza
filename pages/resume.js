@@ -26,11 +26,20 @@ const Resume = ({ dir }) => {
 
       <main dir={dir}>
         <Layout locales={locales}>
-          <h1>
-            <FormattedMessage id="page.resume.title" />
-          </h1>
+          <div className="flex flex-row gap-16">
+            <div className="w-1/2  flex flex-col justify-center gap-4">
+              <div className="text-4xl">
+                <FormattedMessage id="page.resume.title" />
+              </div>
+              <p>
+                <FormattedMessage id="page.resume.description" />
+              </p>
+            </div>
 
-          <Jobs jobs={jobs} />
+            <div className="w-1/2">
+              <Jobs jobs={jobs} />
+            </div>
+          </div>
         </Layout>
       </main>
     </>
