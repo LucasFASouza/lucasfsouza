@@ -36,5 +36,82 @@
       "endDate": "2017",
       "description": "Durante meu trabalho desenvolvi software, treinei e dei consultoria - usando tecnologias como Pyhton, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, entre outras coisas"
     }
+  ],
+
+  "page.resume.education.title": "Educação",
+  "page.resume.education.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+
+  "page.resume.education": [
+    {
+      "title": "Bacharel em Ciência da Computação",
+      "institution": "Universidade Federal de São Carlos",
+      "startDate": "2010",
+      "endDate": "2014",
+      "description": "Durante meu curso aprendi sobre algoritmos, estruturas de dados, programação orientada a objetos, programação funcional, programação concorrente, redes de computadores, sistemas operacionais, entre outras coisas"
+    },
+    {
+      "title": "Mestrado em Ciência da Computação",
+      "institution": "Universidade de São Paulo",
+      "startDate": "2014",
+      "endDate": "2016",
+      "description": "Durante meu curso aprendi sobre algoritmos, estruturas de dados, programação orientada a objetos, programação funcional, programação concorrente, redes de computadores, sistemas operacionais, entre outras coisas"
+    }
+  ],
+
+  "page.portfolio.title": "Portfólio",
+  "page.portfolio.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+
+  "page.portfolio.projects": [
+    {
+      "title": "Projeto 1",
+      "short-description": "Descrição curta do projeto 1",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "Redux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "description": "Descrição longa do projeto 1, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
+      "status": "Concluído",
+      "url": "https://www.google.com",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Projeto 2",
+      "short-description": "Descrição curta do projeto 2",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "Redux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "description": "Descrição longa do projeto 2, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
+      "status": "Concluído",
+      "url": "https://www.google.com",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Projeto 3",
+      "short-description": "Descrição curta do projeto 3",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "Redux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "description": "Descrição longa do projeto 3, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
+      "status": "Concluído",
+      "url": "https://www.google.com",
+      "image": "https://via.placeholder.com/150"
+    }
   ]
 }

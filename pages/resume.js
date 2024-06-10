@@ -5,6 +5,7 @@ import Head from "next/head";
 
 import Layout from "../components/Layout";
 import Jobs from "../components/Jobs";
+import Courses from "../components/Courses";
 
 const Resume = ({ dir }) => {
   const { locales } = useRouter();
@@ -15,7 +16,8 @@ const Resume = ({ dir }) => {
     id: "page.home.head.meta.description",
   });
 
-  const jobs = intl.messages["page.resume.jobs"] || [];
+  const jobs = intl.messages["page.resume.jobs.list"] || [];
+  const courses = intl.messages["page.resume.education.list"] || [];
 
   return (
     <>
@@ -29,15 +31,30 @@ const Resume = ({ dir }) => {
           <div className="flex flex-row gap-16">
             <div className="w-1/2  flex flex-col justify-center gap-4">
               <div className="text-4xl">
-                <FormattedMessage id="page.resume.title" />
+                <FormattedMessage id="page.resume.jobs.title" />
               </div>
               <p>
-                <FormattedMessage id="page.resume.description" />
+                <FormattedMessage id="page.resume.jobs.description" />
               </p>
             </div>
 
             <div className="w-1/2">
               <Jobs jobs={jobs} />
+            </div>
+          </div>
+
+          <div className="flex flex-row gap-16">
+            <div className="w-1/2  flex flex-col justify-center gap-4">
+              <div className="text-4xl">
+                <FormattedMessage id="page.resume.education.title" />
+              </div>
+              <p>
+                <FormattedMessage id="page.resume.education.description" />
+              </p>
+            </div>
+
+            <div className="w-1/2">
+              <Courses courses={courses} />
             </div>
           </div>
         </Layout>

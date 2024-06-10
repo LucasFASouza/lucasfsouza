@@ -4,10 +4,10 @@
   "page.home.title": "Hey, \nI'm <b>Lucas F. Souza</b>",
   "page.home.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
 
-  "page.resume.title": "Experience",
-  "page.resume.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
+  "page.resume.jobs.title": "Experience",
+  "page.resume.jobs.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
 
-  "page.resume.jobs": [
+  "page.resume.jobs.list": [
     {
       "title": "Software Developer",
       "company": "Caelum",
@@ -35,6 +35,83 @@
       "startDate": "2016",
       "endDate": "2017",
       "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+    }
+  ],
+
+  "page.resume.education.title": "Education",
+  "page.resume.education.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
+
+  "page.resume.education.list": [
+    {
+      "title": "Bachelor in Computer Science",
+      "institution": "Federal University of São Carlos",
+      "startDate": "2010",
+      "endDate": "2014",
+      "description": "During my course I learned about algorithms, data structures, object-oriented programming, functional programming, concurrent programming, computer networks, operating systems, among other things"
+    },
+    {
+      "title": "Master in Computer Science",
+      "institution": "University of São Paulo",
+      "startDate": "2014",
+      "endDate": "2016",
+      "description": "During my course I learned about algorithms, data structures, object-oriented programming, functional programming, concurrent programming, computer networks, operating systems, among other things"
+    }
+  ],
+
+  "page.portfolio.title": "Portfolio",
+  "page.portfolio.description": "I'm going to write something here, maybe the chatgpt will help me, to use many buzzwords and make it seem like I really know some things that I just heard about.",
+
+  "page.portfolio.projects": [
+    {
+      "title": "Project 1",
+      "short-description": "Short description of project 1",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "Redux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "description": "Long description of project 1, where I will write about the technologies used, the challenges faced, the solutions found, and what I learned from this project. I will also talk about the impact of the project and what it taught me. Finally, I will talk about what I would do differently if I were to do this project again.",
+      "status": "Completed",
+      "url": "https://www.google.com",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Project 2",
+      "short-description": "Short description of project 2",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "Redux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "description": "Long description of project 2, where I will write about the technologies used, the challenges faced, the solutions found, and what I learned from this project. I will also talk about the impact of the project and what it taught me. Finally, I will talk about what I would do differently if I were to do this project again.",
+      "status": "Completed",
+      "url": "https://www.google.com",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Project 3",
+      "short-description": "Short description of project 3",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "Redux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "description": "Long description of project 3, where I will write about the technologies used, the challenges faced, the solutions found, and what I learned from this project. I will also talk about the impact of the project and what it taught me. Finally, I will talk about what I would do differently if I were to do this project again.",
+      "status": "Completed",
+      "url": "https://www.google.com",
+      "image": "https://via.placeholder.com/150"
     }
   ]
 }
