@@ -7,8 +7,8 @@ const Courses = ({ courses }) => {
         <li key={index} className="py-5">
           <div className="flex justify-between">
             <h2 className="text-lg font-bold">
-              {course.title} <span className="font-light">at</span>{" "}
-              {course.institutionq}
+              {course.title} <span className="font-light">at</span>
+              {course.institution}
             </h2>
             <h3>
               {course.startDate} - {course.endDate}

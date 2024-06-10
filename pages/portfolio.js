@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Modal from "../components/Modal"; // import your Modal component
+import React, { useState } from "react";
+import Modal from "../components/Modal";
 import { FormattedMessage, useIntl } from "react-intl";
 import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
@@ -36,7 +36,11 @@ const Portfolio = ({ dir }) => {
       <main dir={dir}>
         <Layout locales={locales}>
           {projects.map((project, index) => (
-            <div className="bg-stone-950 rounded-xl m-4" key={index} onClick={() => handleOpenModal(project)}>
+            <div
+              className="bg-stone-950 rounded-xl m-4"
+              key={index}
+              onClick={() => handleOpenModal(project)}
+            >
               <h2>{project.title}</h2>
               <p>{project["short-description"]}</p>
               <p>{project.type}</p>

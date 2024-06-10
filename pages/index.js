@@ -1,7 +1,7 @@
+import Head from "next/head";
 import { FormattedMessage, useIntl } from "react-intl";
 import Layout from "../components/Layout";
 import SocialLink from "../components/SocialLink";
-
 import Head from "next/head";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -26,9 +26,9 @@ export default function Home({ dir }) {
             <h1 className="text-4xl">
               <FormattedMessage
                 id="page.home.title"
-                values={{ 
-                  b: (info) => <b>{info}</b>, 
-                 }}
+                values={{
+                  b: (info) => <b>{info}</b>,
+                }}
               />
             </h1>
 
