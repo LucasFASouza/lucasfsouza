@@ -1,4 +1,19 @@
 {
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Currículo",
+      "href": "/resume"
+    },
+    {
+      "label": "Portfólio",
+      "href": "/portfolio"
+    }
+  ],
+  
   "page.home.head.title": "Lucas F. Souza",
   "page.home.head.meta.description": "Portfólio de Lucas F. Souza",
   "page.home.title": "Olá,\nEu sou <b>Lucas F. Souza</b>",
