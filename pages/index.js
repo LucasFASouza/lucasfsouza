@@ -2,15 +2,14 @@ import Head from "next/head";
 import { FormattedMessage, useIntl } from "react-intl";
 import Layout from "../components/Layout";
 import SocialLink from "../components/SocialLink";
-import Head from "next/head";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home({ dir }) {
   const intl = useIntl();
 
-  const title = intl.formatMessage({ id: "page.home.head.title" });
+  const title = intl.formatMessage({ id: "meta.title" });
   const description = intl.formatMessage({
-    id: "page.home.head.meta.description",
+    id: "meta.description",
   });
 
   return (

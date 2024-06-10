@@ -11,9 +11,9 @@ const Resume = ({ dir }) => {
   const { locales } = useRouter();
   const intl = useIntl();
 
-  const title = intl.formatMessage({ id: "page.home.head.title" });
+  const title = intl.formatMessage({ id: "meta.title" });
   const description = intl.formatMessage({
-    id: "page.home.head.meta.description",
+    id: "meta.description",
   });
 
   const jobs = intl.messages["page.resume.jobs.list"] || [];

@@ -13,9 +13,9 @@ const Portfolio = ({ dir }) => {
   const intl = useIntl();
   const projects = intl.messages["page.portfolio.projects"] || [];
 
-  const title = intl.formatMessage({ id: "page.home.head.title" });
+  const title = intl.formatMessage({ id: "meta.title" });
   const description = intl.formatMessage({
-    id: "page.home.head.meta.description",
+    id: "meta.description",
   });
 
   const handleOpenModal = (project) => {

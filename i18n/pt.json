@@ -14,8 +14,9 @@
     }
   ],
   
-  "page.home.head.title": "Lucas F. Souza",
-  "page.home.head.meta.description": "Portfólio de Lucas F. Souza",
+  "meta.title": "Lucas F. Souza",
+  "meta.description": "Portfólio de Lucas F. Souza",
+  
   "page.home.title": "Olá,\nEu sou <b>Lucas F. Souza</b>",
   "page.home.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
 
