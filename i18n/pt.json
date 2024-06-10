@@ -76,6 +76,7 @@
       ],
       "description": "Descrição longa do projeto 1, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
       "status": "Concluído",
+      "type": "App Mobile",
       "url": "https://www.google.com",
       "image": "https://via.placeholder.com/150"
     },
@@ -93,6 +94,7 @@
       ],
       "description": "Descrição longa do projeto 2, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
       "status": "Concluído",
+      "type": "App Web",
       "url": "https://www.google.com",
       "image": "https://via.placeholder.com/150"
     },
@@ -110,6 +112,7 @@
       ],
       "description": "Descrição longa do projeto 3, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
       "status": "Concluído",
+      "type": "App Mobile",
       "url": "https://www.google.com",
       "image": "https://via.placeholder.com/150"
     }

@@ -76,6 +76,7 @@
       ],
       "description": "Long description of project 1, where I will write about the technologies used, the challenges faced, the solutions found, and what I learned from this project. I will also talk about the impact of the project and what it taught me. Finally, I will talk about what I would do differently if I were to do this project again.",
       "status": "Completed",
+      "type": "Mobile App",
       "url": "https://www.google.com",
       "image": "https://via.placeholder.com/150"
     },
@@ -93,6 +94,7 @@
       ],
       "description": "Long description of project 2, where I will write about the technologies used, the challenges faced, the solutions found, and what I learned from this project. I will also talk about the impact of the project and what it taught me. Finally, I will talk about what I would do differently if I were to do this project again.",
       "status": "Completed",
+      "type": "Web App",
       "url": "https://www.google.com",
       "image": "https://via.placeholder.com/150"
     },
@@ -110,6 +112,7 @@
       ],
       "description": "Long description of project 3, where I will write about the technologies used, the challenges faced, the solutions found, and what I learned from this project. I will also talk about the impact of the project and what it taught me. Finally, I will talk about what I would do differently if I were to do this project again.",
       "status": "Completed",
+      "type": "Web App",
       "url": "https://www.google.com",
       "image": "https://via.placeholder.com/150"
     }

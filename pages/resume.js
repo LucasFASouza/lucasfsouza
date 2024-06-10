@@ -4,8 +4,8 @@ import { FormattedMessage, useIntl } from "react-intl";
 import Head from "next/head";
 
 import Layout from "../components/Layout";
-import Jobs from "../components/Jobs";
-import Courses from "../components/Courses";
+import Jobs from "../components/resume/Jobs";
+import Courses from "../components/resume/Courses";
 
 const Resume = ({ dir }) => {
   const { locales } = useRouter();
