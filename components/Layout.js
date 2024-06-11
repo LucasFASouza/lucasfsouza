@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./Navbar";
 
 const Layout = ({ children, locales }) => (
-  <div className="min-h-screen bg-[#1E1E1E] text-stone-200 px-16">
+  <div className="min-h-screen bg-[#1E1E1E] text-stone-300">
     <Navbar locales={locales} />
-    {children}
+    <div className="px-14">{children}</div>
   </div>
 );
 

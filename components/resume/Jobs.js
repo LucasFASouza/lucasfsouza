@@ -8,12 +8,19 @@ const Jobs = ({ jobs }) => {
           <div className="flex justify-between">
             <h2 className="text-lg font-bold">
               {job.title}
-              <span className="font-light"> at </span>
-              {job.company}
+              <span className="text-[#FC3D6B] font-semibold"> @ </span>
+              <a
+                href={job.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#FC3D6B] hover:underline underline-offset-4"
+              >
+                {job.company}
+              </a>
             </h2>
-            <h3>
-              {job.startDate} - {job.endDate}
-            </h3>
+            <p>
+              {job.startDate} {job.endDate && <span>- {job.endDate}</span>}
+            </p>
           </div>
           <p>{job.description}</p>
         </li>

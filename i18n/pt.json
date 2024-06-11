@@ -17,13 +17,13 @@
   "meta.title": "Lucas F. Souza",
   "meta.description": "Portfólio de Lucas F. Souza",
   
-  "page.home.title": "Olá,\nEu sou <b>Lucas F. Souza</b>",
+  "page.home.title": "Olá, \nEu sou <b>Lucas F. Souza</b>",
   "page.home.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
 
-  "page.resume.title": "Experiência",
-  "page.resume.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+  "page.resume.jobs.title": "Experiência",
+  "page.resume.jobs.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
 
-  "page.resume.jobs": [
+  "page.resume.jobs.list": [
     {
       "title": "Desenvolvedor de Software",
       "company": "Caelum",
@@ -57,7 +57,7 @@
   "page.resume.education.title": "Educação",
   "page.resume.education.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
 
-  "page.resume.education": [
+  "page.resume.education.list": [
     {
       "title": "Bacharel em Ciência da Computação",
       "institution": "Universidade Federal de São Carlos",

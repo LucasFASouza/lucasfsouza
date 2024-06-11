@@ -7,12 +7,20 @@ const Courses = ({ courses }) => {
         <li key={index} className="py-5">
           <div className="flex justify-between">
             <h2 className="text-lg font-bold">
-              {course.title} <span className="font-light">at</span>
-              {course.institution}
+              {course.title}
+              <span className="text-[#FC3D6B] font-semibold"> @ </span>
+              <a
+                href={course.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#FC3D6B] hover:underline underline-offset-4"
+              >
+                {course.institution}
+              </a>
             </h2>
-            <h3>
+            <p>
               {course.startDate} - {course.endDate}
-            </h3>
+            </p>
           </div>
           <p>{course.description}</p>
         </li>

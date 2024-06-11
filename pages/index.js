@@ -32,7 +32,9 @@ export default function Home({ dir }) {
             </h1>
 
             <p>
-              <FormattedMessage id="page.home.description" />
+              <FormattedMessage id="page.home.description" values={{
+                  b: (info) => <b>{info}</b>,
+                }} />
             </p>
 
             <div className="flex gap-4">

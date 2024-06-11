@@ -9,8 +9,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ["Inter", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
+      backdropFilter: {
+        none: "none",
+        blur: "blur(20px)",
+      },
+    },
+  },
+  variants: {
+    extend: {
+      backdropFilter: ["responsive"],
     },
   },
 };

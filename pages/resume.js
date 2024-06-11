@@ -28,33 +28,37 @@ const Resume = ({ dir }) => {
 
       <main dir={dir}>
         <Layout locales={locales}>
-          <div className="flex flex-row gap-16">
-            <div className="w-1/2  flex flex-col justify-center gap-4">
-              <div className="text-4xl">
-                <FormattedMessage id="page.resume.jobs.title" />
+          <div className="flex flex-col gap-12 items-center">
+            <div className="flex flex-row gap-16">
+              <div className="w-1/2  flex flex-col justify-center gap-4">
+                <div className="text-4xl">
+                  <FormattedMessage id="page.resume.jobs.title" />
+                </div>
+                <p>
+                  <FormattedMessage id="page.resume.jobs.description" />
+                </p>
               </div>
-              <p>
-                <FormattedMessage id="page.resume.jobs.description" />
-              </p>
-            </div>
 
-            <div className="w-1/2">
-              <Jobs jobs={jobs} />
-            </div>
-          </div>
-
-          <div className="flex flex-row gap-16">
-            <div className="w-1/2  flex flex-col justify-center gap-4">
-              <div className="text-4xl">
-                <FormattedMessage id="page.resume.education.title" />
+              <div className="w-1/2">
+                <Jobs jobs={jobs} />
               </div>
-              <p>
-                <FormattedMessage id="page.resume.education.description" />
-              </p>
             </div>
 
-            <div className="w-1/2">
-              <Courses courses={courses} />
+            <hr className="my-8 w-1/3" />
+
+            <div className="flex flex-row gap-16">
+              <div className="w-1/2  flex flex-col justify-center gap-4">
+                <div className="text-4xl">
+                  <FormattedMessage id="page.resume.education.title" />
+                </div>
+                <p>
+                  <FormattedMessage id="page.resume.education.description" />
+                </p>
+              </div>
+
+              <div className="w-1/2">
+                <Courses courses={courses} />
+              </div>
             </div>
           </div>
         </Layout>

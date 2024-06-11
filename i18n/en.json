@@ -18,39 +18,39 @@
   "meta.description": "Lucas F. Souza Portfolio",
 
   "page.home.title": "Hey, \nI'm <b>Lucas F. Souza</b>",
-  "page.home.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
+  "page.home.description": "I'm a <b>full-stack</b>. developer based in <b>São Paulo</b>. \nI have a passion for <b>creating</b> and <b>learning</b> new technologies. \nI'm always looking for new challenges and opportunities to grow and improve my skills.",
 
   "page.resume.jobs.title": "Experience",
   "page.resume.jobs.description": "I will write something here, maybe chatgpt will help me, to use a lot a buzzwords and make it seem like I actually know a couple of stuff that I only ever heard of.",
 
   "page.resume.jobs.list": [
     {
-      "title": "Software Developer",
-      "company": "Caelum",
-      "startDate": "2013",
-      "endDate": "2014",
-      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+      "title": "Software Engineer",
+      "company": "Buriti Investimentos",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "I work as a developer and analyst, automating processes, creating and maintaining Flask APIs, Vue systems, and portals, and developing interactive reports for clients."
     },
     {
       "title": "Software Developer",
-      "company": "Alura",
-      "startDate": "2014",
-      "endDate": "2015",
-      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+      "company": "Pilar",
+      "startDate": "2022",
+      "endDate": "2023",
+      "description": "Worked as a developer in the front-end team where I contributed from the creation of the screen designs to the integrations and final functionalities, using Figma, Vue.js, and Tailwind."
+    },
+    {
+      "title": "Front-end Intern",
+      "company": "Rocket.Chat",
+      "startDate": "Jan",
+      "endDate": "Mar 2022",
+      "description": "Worked as a remote developer for the Omnichannel team, working on technical deficits in React and TypeScript. Being on an international team I was able to develop asynchronous communication in English."
     },
     {
       "title": "Software Developer",
-      "company": "Caelum",
-      "startDate": "2015",
-      "endDate": "2016",
-      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
-    },
-    {
-      "title": "Software Developer",
-      "company": "Alura",
-      "startDate": "2016",
-      "endDate": "2017",
-      "description": "During my work, I developed software, trained, and provided consultancy - using technologies such as Python, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, among others"
+      "company": "Simbiose Ventures",
+      "startDate": "May",
+      "endDate": "Oct 2020",
+      "description": "Worked as a remote developer of the product team, being able to contribute to performance and process optimization and creation of new products, using technologies such as Django, JavaScript, Bootstrap, Scrum, Rest API, MySQL, and Linux."
     }
   ],
 
@@ -59,17 +59,17 @@
 
   "page.resume.education.list": [
     {
-      "title": "Bachelor in Computer Science",
-      "institution": "Federal University of São Carlos",
-      "startDate": "2010",
-      "endDate": "2014",
+      "title": "B.Sc. in Computer Engineering",
+      "institution": "São Paulo Virtual University",
+      "startDate": "2023",
+      "endDate": "Present",
       "description": "During my course I learned about algorithms, data structures, object-oriented programming, functional programming, concurrent programming, computer networks, operating systems, among other things"
     },
     {
-      "title": "Master in Computer Science",
-      "institution": "University of São Paulo",
-      "startDate": "2014",
-      "endDate": "2016",
+      "title": "B.Sc. in Mechanical Engineering",
+      "institution": "São Paulo University",
+      "startDate": "2020",
+      "endDate": "2022",
       "description": "During my course I learned about algorithms, data structures, object-oriented programming, functional programming, concurrent programming, computer networks, operating systems, among other things"
     }
   ],
