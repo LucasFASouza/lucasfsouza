@@ -17,7 +17,8 @@ module.exports = {
       },
       colors: {
         "accent-pink": "#FC3D6B",
-        "basic-black": "#1E1E1E",
+        "primary-bg": "#1E1E1E",
+        "accent-bg": "#2E2C2C",
       },
     },
   },

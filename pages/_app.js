@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { IntlProvider } from "react-intl";
 import en from "../i18n/en.json";

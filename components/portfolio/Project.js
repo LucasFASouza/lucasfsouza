@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="z-10 max-w-64 mx-auto text-white rounded-xl overflow-hidden md:max-w-96 m-4 bg-basic-black bg-opacity-85 backdrop-blur shadow-md shadow-neutral-900">
+    <div className="z-10 max-w-64 mx-auto text-white rounded-xl overflow-hidden md:max-w-96 m-4 bg-accent-bg bg-opacity-85 backdrop-blur hover:shadow-md shadow-neutral-900">
       <div className="flex flex-col">
         <div className="flex-shrink-0">
           <img
