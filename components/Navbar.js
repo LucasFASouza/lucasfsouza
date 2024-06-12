@@ -44,7 +44,7 @@ const Navbar = () => {
       }}
     >
       <Link
-        className="font-bold text-xl underline-transition"
+        className="font-bold text-xl color-transition"
         href="/"
         locale={router.locale}
       >
@@ -54,9 +54,7 @@ const Navbar = () => {
         {links.map((link, index) => (
           <li key={index}>
             <Link href={link.href} locale={router.locale}>
-              <span className="font-medium underline-transition">
-                {link.label}
-              </span>
+              <span className="font-medium color-transition">{link.label}</span>
             </Link>
           </li>
         ))}

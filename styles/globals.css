@@ -34,3 +34,12 @@
   visibility: visible;
   width: 100%;
 }
+
+.color-transition {
+  color: white;
+  transition: color 0.15s ease-in-out;
+}
+
+.color-transition:hover {
+  color: #FC3D6B;
+}
