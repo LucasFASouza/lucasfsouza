@@ -6,7 +6,7 @@ function SocialLink({ href, icon }) {
     <a href={href} target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon
         icon={icon}
-        className="text-stone-400 hover:text-[#FC3D6B]"
+        className="text-stone-400 hover:text-accent-pink"
         size="2x"
       />
     </a>

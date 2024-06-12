@@ -26,15 +26,18 @@ export default function Home({ dir }) {
               <FormattedMessage
                 id="page.home.title"
                 values={{
-                  b: (info) => <b>{info}</b>,
+                  b: (info) => <b className="color-transition">{info}</b>,
                 }}
               />
             </h1>
 
             <p>
-              <FormattedMessage id="page.home.description" values={{
-                  b: (info) => <b>{info}</b>,
-                }} />
+              <FormattedMessage
+                id="page.home.description"
+                values={{
+                  b: (info) => <b className="color-transition">{info}</b>,
+                }}
+              />
             </p>
 
             <div className="flex gap-4">

@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --accent-pink: #FC3D6B;
+}
+
+::selection {
+  background: var(--accent-pink);
+  color: white;
+}
+
 .underline-transition {
   position: relative;
   text-decoration: none;
@@ -16,7 +25,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FC3D6B;
+  background-color: var(--accent-pink);
   visibility: hidden;
   transition: all 0.2s ease-in-out;
 }
@@ -27,7 +36,7 @@
 }
 
 .color-transition {
-  background: linear-gradient(to right, #FC3D6B 50%, white 50%);
+  background: linear-gradient(to right, var(--accent-pink) 50%, white 50%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -52,7 +61,7 @@
   width: 0;
   height: 100%;
   left: 0;
-  background-color: #FC3D6B;
+  background-color: var(--accent-pink);
   transition: width 0.3s ease-in-out;
 }
 

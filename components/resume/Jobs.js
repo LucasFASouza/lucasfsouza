@@ -8,12 +8,12 @@ const Jobs = ({ jobs }) => {
           <div className="flex justify-between">
             <h2 className="text-lg font-bold">
               {job.title}
-              <span className="text-[#FC3D6B] font-semibold"> @ </span>
+              <span className="text-accent-pink font-semibold"> @ </span>
               <a
                 href={job.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#FC3D6B] underline-transition cursor-pointer"
+                className="text-accent-pink underline-transition cursor-pointer"
               >
                 {job.company}
               </a>

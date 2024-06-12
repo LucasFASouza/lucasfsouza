@@ -54,7 +54,7 @@ const Navbar = () => {
         {links.map((link, index) => (
           <li key={index}>
             <Link href={link.href} locale={router.locale}>
-              <span className="font-semibold hover:text-[#FC3D6B]">
+              <span className="font-semibold color-transition">
                 {link.label}
               </span>
             </Link>

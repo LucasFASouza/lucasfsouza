@@ -15,6 +15,9 @@ module.exports = {
         none: "none",
         blur: "blur(20px)",
       },
+      colors: {
+        'accent-pink': '#FC3D6B',
+      }
     },
   },
   variants: {
