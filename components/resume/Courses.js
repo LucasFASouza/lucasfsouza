@@ -13,7 +13,7 @@ const Courses = ({ courses }) => {
                 href={course.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#FC3D6B] hover:underline underline-offset-4"
+                className="text-[#FC3D6B] underline-transition cursor-pointer"
               >
                 {course.institution}
               </a>

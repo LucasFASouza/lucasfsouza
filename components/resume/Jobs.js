@@ -13,7 +13,7 @@ const Jobs = ({ jobs }) => {
                 href={job.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#FC3D6B] hover:underline underline-offset-4"
+                className="text-[#FC3D6B] underline-transition cursor-pointer"
               >
                 {job.company}
               </a>

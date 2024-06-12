@@ -44,7 +44,7 @@ const Navbar = () => {
       }}
     >
       <Link
-        className="font-bold text-xl hover:text-[#FC3D6B]"
+        className="font-bold text-xl color-transition"
         href="/"
         locale={router.locale}
       >
