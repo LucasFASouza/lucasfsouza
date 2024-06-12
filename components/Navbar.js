@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex justify-between items-center px-14 h-20 bg-[#1E1E1E] bg-opacity-85 backdrop-blur ${
+      className={`z-50 flex justify-between items-center px-14 h-20 bg-basic-black bg-opacity-85 backdrop-blur ${
         isTop ? "" : "shadow-md shadow-neutral-900"
       }`}
       style={{
@@ -44,7 +44,7 @@ const Navbar = () => {
       }}
     >
       <Link
-        className="font-bold text-xl color-transition"
+        className="font-bold text-xl underline-transition"
         href="/"
         locale={router.locale}
       >
@@ -54,7 +54,7 @@ const Navbar = () => {
         {links.map((link, index) => (
           <li key={index}>
             <Link href={link.href} locale={router.locale}>
-              <span className="font-semibold color-transition">
+              <span className="font-medium underline-transition">
                 {link.label}
               </span>
             </Link>

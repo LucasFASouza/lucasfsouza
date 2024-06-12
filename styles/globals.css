@@ -34,37 +34,3 @@
   visibility: visible;
   width: 100%;
 }
-
-.color-transition {
-  background: linear-gradient(to right, var(--accent-pink) 50%, white 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 0.2s ease-in-out;
-}
-
-.color-transition:hover {
-  background-position: 0%;
-}
-
-.highlight-transition {
-  position: relative;
-  overflow: hidden;
-}
-
-.highlight-transition::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 0;
-  height: 100%;
-  left: 0;
-  background-color: var(--accent-pink);
-  transition: width 0.3s ease-in-out;
-}
-
-.highlight-transition:hover::before {
-  width: 100%;
-}

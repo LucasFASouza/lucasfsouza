@@ -24,12 +24,15 @@ export default function Home({ dir }) {
 
       <main dir={dir}>
         <Layout>
-          <div className="h-[32rem] flex flex-col justify-center w-1/2 gap-8">
+          <div
+            className="flex flex-col justify-center w-1/2 gap-8"
+            style={{ height: "calc(100vh - 80px)" }}
+          >
             <h1 className="text-4xl">
               <FormattedMessage
                 id="page.home.title"
                 values={{
-                  b: (info) => <b className="color-transition">{info}</b>,
+                  b: (info) => <b className="underline-transition">{info}</b>,
                 }}
               />
             </h1>
@@ -38,7 +41,7 @@ export default function Home({ dir }) {
               <FormattedMessage
                 id="page.home.description"
                 values={{
-                  b: (info) => <b className="color-transition">{info}</b>,
+                  b: (info) => <b className="underline-transition">{info}</b>,
                 }}
               />
             </p>
