@@ -1,7 +1,7 @@
 {
   "navbar": [
     {
-      "label": "Home",
+      "label": "Início",
       "href": "/"
     },
     {
@@ -13,124 +13,131 @@
       "href": "/portfolio"
     }
   ],
-  
+
   "meta.title": "Lucas F. Souza",
   "meta.description": "Portfólio de Lucas F. Souza",
-  
-  "page.home.title": "Olá, \nEu sou <b>Lucas F. Souza</b>",
-  "page.home.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+
+  "page.home.title": "Oi, \nEu sou <b>Lucas F. Souza</b>",
+  "page.home.description": "Eu sou um desenvolvedor <b>full-stack</b> baseado em <b>São Paulo</b>. \nTenho uma paixão por <b>criar</b> e <b>aprender</b> novas tecnologias. \nEstou sempre procurando novos desafios e oportunidades para crescer e melhorar minhas habilidades.",
 
   "page.resume.jobs.title": "Experiência",
-  "page.resume.jobs.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+  "page.resume.jobs.description": "Vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas palavras da moda e fazer parecer que eu realmente sei algumas coisas que eu só ouvi falar.",
 
   "page.resume.jobs.list": [
     {
-      "title": "Desenvolvedor de Software",
-      "company": "Caelum",
-      "startDate": "2013",
-      "endDate": "2014",
-      "description": "Durante meu trabalho desenvolvi software, treinei e dei consultoria - usando tecnologias como Pyhton, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, entre outras coisas"
+      "title": "Engenheiro de Software",
+      "company": "Buriti Investimentos",
+      "url": "https://buritiinvestimentos.com.br/",
+      "startDate": "2023",
+      "endDate": "Presente",
+      "description": "Trabalho como desenvolvedor e analista, automatizando processos, criando e mantendo APIs Flask, sistemas Vue e portais, e desenvolvendo relatórios interativos para clientes."
     },
     {
       "title": "Desenvolvedor de Software",
-      "company": "Alura",
-      "startDate": "2014",
-      "endDate": "2015",
-      "description": "Durante meu trabalho desenvolvi software, treinei e dei consultoria - usando tecnologias como Pyhton, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, entre outras coisas"
+      "company": "Pilar",
+      "url": "https://www.soupilar.com.br/",
+      "startDate": "2022",
+      "endDate": "2023",
+      "description": "Trabalhei como desenvolvedor na equipe de front-end onde contribuí desde a criação dos designs de tela até as integrações e funcionalidades finais, usando Figma, Vue.js e Tailwind."
+    },
+    {
+      "title": "Estagiário de Front-end",
+      "company": "Rocket.Chat",
+      "url": "https://www.rocket.chat/",
+      "startDate": "Jan",
+      "endDate": "Mar 2022",
+      "description": "Trabalhei como desenvolvedor remoto para a equipe Omnichannel, trabalhando em déficits técnicos em React e TypeScript. Estar em uma equipe internacional me permitiu desenvolver comunicação assíncrona em inglês."
     },
     {
       "title": "Desenvolvedor de Software",
-      "company": "Caelum",
-      "startDate": "2015",
-      "endDate": "2016",
-      "description": "Durante meu trabalho desenvolvi software, treinei e dei consultoria - usando tecnologias como Pyhton, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, entre outras coisas"
-    },
-    {
-      "title": "Desenvolvedor de Software",
-      "company": "Alura",
-      "startDate": "2016",
-      "endDate": "2017",
-      "description": "Durante meu trabalho desenvolvi software, treinei e dei consultoria - usando tecnologias como Pyhton, Java, Ruby, Node.js, React, Angular, Vue.js, Docker, Kubernetes, AWS, GCP, Azure, entre outras coisas"
+      "company": "Simbiose Ventures",
+      "url": "https://www.simbioseventures.com/",
+      "startDate": "Mai",
+      "endDate": "Out 2020",
+      "description": "Trabalhei como desenvolvedor remoto da equipe de produto, podendo contribuir para a otimização de desempenho e processos e criação de novos produtos, usando tecnologias como Django, JavaScript, Bootstrap, Scrum, Rest API, MySQL e Linux."
     }
   ],
 
   "page.resume.education.title": "Educação",
-  "page.resume.education.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+  "page.resume.education.description": "Vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas palavras da moda e fazer parecer que eu realmente sei algumas coisas que eu só ouvi falar.",
 
   "page.resume.education.list": [
     {
-      "title": "Bacharel em Ciência da Computação",
-      "institution": "Universidade Federal de São Carlos",
-      "startDate": "2010",
-      "endDate": "2014",
+      "title": "Engenharia da Computação",
+      "institution": "Universidade Virtual de São Paulo",
+      "url": "https://univesp.br/",
+      "startDate": "2023",
+      "endDate": "Presente",
       "description": "Durante meu curso aprendi sobre algoritmos, estruturas de dados, programação orientada a objetos, programação funcional, programação concorrente, redes de computadores, sistemas operacionais, entre outras coisas"
     },
     {
-      "title": "Mestrado em Ciência da Computação",
+      "title": "Engenharia Mecânica",
       "institution": "Universidade de São Paulo",
-      "startDate": "2014",
-      "endDate": "2016",
+      "url": "https://www5.usp.br/",
+      "startDate": "2020",
+      "endDate": "2022",
       "description": "Durante meu curso aprendi sobre algoritmos, estruturas de dados, programação orientada a objetos, programação funcional, programação concorrente, redes de computadores, sistemas operacionais, entre outras coisas"
     }
   ],
 
   "page.portfolio.title": "Portfólio",
-  "page.portfolio.description": "Eu vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas buzzwords e fazer parecer que eu realmente sei algumas coisas que eu apenas ouvi falar.",
+  "page.portfolio.description": "Vou escrever algo aqui, talvez o chatgpt me ajude, para usar muitas palavras da moda e fazer parecer que eu realmente sei algumas coisas que eu só ouvi falar.",
 
   "page.portfolio.projects": [
     {
-      "title": "Projeto 1",
-      "short-description": "Descrição curta do projeto 1",
-      "stack": [
-        "Python",
-        "Django",
-        "React",
-        "Redux",
-        "Docker",
-        "Kubernetes",
-        "AWS"
-      ],
-      "description": "Descrição longa do projeto 1, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
+      "title": "Aposcar",
+      "short-description": "Um site para apostar nos vencedores do Oscar",
+      "date": 2024,
+      "stack": ["Django", "React", "Vercel", "TailwindCSS"],
+      "description": "Aposcar é um produto mínimo viável (MVP) aplicação web projetada para cinéfilos se envolverem em prever os vencedores do Oscar para várias categorias. Os usuários podem lançar seus votos, e a plataforma fornece um leaderboard em tempo real mostrando previsões. Construído com Django no backend e React no frontend, Aposcar oferece uma experiência simples e imersiva para entusiastas do cinema ansiosos para participar da emoção do Oscar.",
       "status": "Concluído",
-      "type": "App Mobile",
-      "url": "https://www.google.com",
-      "image": "https://via.placeholder.com/150"
+      "type": "Web",
+      "url": "https://aposcar.vercel.app/",
+      "github-repo": "https://github.com/LucasFASouza/aposcar-mvp",
+      "image": "https://github.com/LucasFASouza/aposcar-mvp/blob/main/Thumb.png?raw=true"
     },
     {
-      "title": "Projeto 2",
-      "short-description": "Descrição curta do projeto 2",
+      "title": "Fila dos Bandecos",
+      "short-description": "Um site para verificar e atualizar o comprimento das filas nos restaurantes universitários",
+      "date": 2022,
       "stack": [
-        "Python",
         "Django",
         "React",
-        "Redux",
-        "Docker",
-        "Kubernetes",
-        "AWS"
+        "NextJS",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Vercel"
       ],
-      "description": "Descrição longa do projeto 2, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
+      "description": "Com minha universidade retornando às atividades presenciais pós-covid, mas com os restaurantes universitários operando a 50% de sua capacidade, estávamos enfrentando enormes filas. Com base na iniciativa da equipe Skyrats - MAVs inteligentes para organizar grupos de mensagens para que os alunos pudessem ser informados sobre a situação de cada restaurante, decidi iniciar um projeto que pudesse ajudar a comunidade estudantil. \nCom menos de uma semana de desenvolvimento, usando tecnologias como Django, React, NextJS e Postgres, montei um site onde os alunos podem verificar e atualizar o status de cada uma das filas!",
       "status": "Concluído",
-      "type": "App Web",
-      "url": "https://www.google.com",
-      "image": "https://via.placeholder.com/150"
+      "type": "Web",
+      "url": "https://bandeco.skyrats.com.br/",
+      "github-repo": "https://github.com/LucasFASouza/Fila-Bandeco",
+      "image": "https://github.com/LucasFASouza/Fila-Bandeco/blob/main/app.png?raw=true"
     },
     {
-      "title": "Projeto 3",
-      "short-description": "Descrição curta do projeto 3",
-      "stack": [
-        "Python",
-        "Django",
-        "React",
-        "Redux",
-        "Docker",
-        "Kubernetes",
-        "AWS"
-      ],
-      "description": "Descrição longa do projeto 3, onde eu vou escrever sobre as tecnologias usadas, os desafios enfrentados, as soluções encontradas, e o que eu aprendi com esse projeto. Também vou falar sobre o impacto do projeto e o que ele me ensinou. Por fim vou falar sobre o que eu faria diferente se fosse fazer esse projeto novamente.",
+      "title": "MTG Tracker",
+      "short-description": "Um aplicativo móvel para acompanhar seu winrate no Magic: The Gathering",
+      "date": 2023,
+      "stack": ["Django", "React Native", "Expo"],
+      "description": "MTGTracker é um aplicativo móvel projetado para jogadores competitivos de Magic: The Gathering (MTG) para acompanhar suas partidas, manter um histórico detalhado e analisar estatísticas de desempenho. O aplicativo visa fornecer insights valiosos, como taxas de vitória, frequências de mulligan e informações sobre decks que apresentam desafios, capacitando os jogadores a tomar decisões informadas e melhorar suas habilidades.",
+      "status": "Em Progresso",
+      "type": "Mobile",
+      "url": null,
+      "github-repo": "https://github.com/LucasFASouza/mtgtracker",
+      "image": "https://i.pinimg.com/originals/e5/3c/95/e53c9582e1a272a164a2b25df6029ff7.jpg"
+    },
+    {
+      "title": "Projeto Nekton",
+      "short-description": "Um jogo móvel de rolagem vertical sobre um submarino explorando as profundezas do oceano",
+      "date": 2021,
+      "stack": ["Unity"],
+      "description": "Projeto Nekton foi o codinome para uma série de operações que terminaram com a Marinha dos Estados Unidos entrando no Challenger Deep, o ponto mais pesquisado nos oceanos do mundo. \nEste jogo foi feito em uma semana como um desafio pessoal. É um jogo móvel de rolagem vertical onde você é um submarino tentando chegar ao fundo do oceano enquanto obtém suprimentos de oxigênio e evita esbarrar em peixes.",
       "status": "Concluído",
-      "type": "App Mobile",
-      "url": "https://www.google.com",
-      "image": "https://via.placeholder.com/150"
+      "type": "Mobile",
+      "url": "https://lucasfsouza.itch.io/projectnekton",
+      "github-repo": null,
+      "image": "https://img.itch.zone/aW1nLzcxNTE3OTkucG5n/original/%2BdFs5f.png"
     }
   ]
 }
