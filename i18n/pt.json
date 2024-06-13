@@ -137,7 +137,7 @@
       "type": "Mobile Game",
       "url": "https://lucasfsouza.itch.io/projectnekton",
       "github-repo": null,
-      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/main/public/shot%2088.png"
+      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/88f579bb378fcb70dec11848af15d2362d92ad1d/public/thumbs/ProjectNekton.png"
     },
     {
       "title": "Goblins & Capivaras",
@@ -149,7 +149,19 @@
       "type": "Browser Game",
       "url": "https://lucasfsouza.itch.io/goblins-capybaras-idk",
       "github-repo": null,
-      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/main/public/shot%2088.png"
+      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/88f579bb378fcb70dec11848af15d2362d92ad1d/public/thumbs/Goblins&Capybaras.png"
+    },
+    {
+      "title": "Portfólio Dev",
+      "short-description": "Este mesmo site que você está olhando agora. Que Inception!",
+      "date": 2024,
+      "stack": ["NextJS", "TailwindCSS", "Vercel", "React"],
+      "description": "Este portfólio foi criado para mostrar meus projetos e habilidades. Foi construído usando NextJS, TailwindCSS e Vercel. O site é totalmente responsivo e possui um recurso de modo escuro. Também tem uma seção de blog onde escrevo sobre meus projetos e experiências.",
+      "status": "Concluído",
+      "type": "Website",
+      "url": "https://lucasfsouza.vercel.app/",
+      "github-repo": "https://github.com/LucasFASouza/mtgtracker",
+      "image": ""
     }
   ]
 }

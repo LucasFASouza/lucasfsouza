@@ -137,19 +137,31 @@
       "type": "Mobile Game",
       "url": "https://lucasfsouza.itch.io/projectnekton",
       "github-repo": null,
-      "image": "https://img.itch.zone/aW1nLzcxNTE3OTkucG5n/original/%2BdFs5f.png"
+      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/88f579bb378fcb70dec11848af15d2362d92ad1d/public/thumbs/ProjectNekton.png"
     },
     {
       "title": "Goblins & Capivaras",
-      "short-description": "Um jogo teste de conceito para um jogo de sobrevicência 2D.",
+      "short-description": "A proof of concept of a 2D survival game.",
       "date": 2023,
       "stack": ["Unity"],
       "description": "A whimsical survival game where you play as a resourceful adventurer collecting materials during the day and fending off goblin attacks at night. Your goal is to expand your toolset by gathering 'dablooms' to increase your chances of survival. But don't forget about the most important member of your team - the trusty capybara! When you need to stock up on supplies, be sure to visit the quirky shopkeeper - a feline in a top hat. Can you make it through the nights and become the ultimate survivalist? - Chat GPT",
-      "status": "Concluído",
+      "status": "Completed",
       "type": "Browser Game",
       "url": "https://lucasfsouza.itch.io/goblins-capybaras-idk",
       "github-repo": null,
-      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/main/public/shot%2088.png"
+      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/88f579bb378fcb70dec11848af15d2362d92ad1d/public/thumbs/Goblins&Capybaras.png"
+    },
+    {
+      "title": "Dev Portfolio",
+      "short-description": "This very website you're looking at right now. How meta!",
+      "date": 2024,
+      "stack": ["NextJS", "TailwindCSS", "Vercel", "React"],
+      "description": "This portfolio was created to showcase my projects and skills. It was built using NextJS, TailwindCSS, and Vercel. The website is fully responsive and has a dark mode feature. It also has a blog section where I write about my projects and experiences.",
+      "status": "Completed",
+      "type": "Website",
+      "url": "https://lucasfsouza.vercel.app/",
+      "github-repo": "https://github.com/LucasFASouza/mtgtracker",
+      "image": ""
     }
   ]
 }
