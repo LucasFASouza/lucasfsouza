@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --accent-pink: #FC3D6B;
+  --accent-pink: #fc3d6b;
+  --accent-dark: #2e2c2c;
+  --stone-300: #d6d3d1;
 }
 
 ::selection {
   background: var(--accent-pink);
-  color: white;
+  color: var(--stone-300);
 }
 
 .underline-transition {
@@ -19,7 +21,7 @@
 }
 
 .underline-transition::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -36,10 +38,10 @@
 }
 
 .color-transition {
-  color: white;
+  color: var(--stone-300);
   transition: color 0.15s ease-in-out;
 }
 
 .color-transition:hover {
-  color: #FC3D6B;
+  color: var(--accent-pink);
 }

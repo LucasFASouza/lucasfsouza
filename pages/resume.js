@@ -4,8 +4,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 import Head from "next/head";
 
 import Layout from "../components/Layout";
-import Jobs from "../components/resume/Jobs";
-import Courses from "../components/resume/Courses";
+import ListResume from "../components/ListResume";
 
 const Resume = ({ dir }) => {
   const { locales } = useRouter();
@@ -43,7 +42,7 @@ const Resume = ({ dir }) => {
               </div>
 
               <div className="w-1/2">
-                <Jobs jobs={jobs} />
+                <ListResume list={jobs} />
               </div>
             </div>
 
@@ -60,7 +59,7 @@ const Resume = ({ dir }) => {
               </div>
 
               <div className="w-1/2">
-                <Courses courses={courses} />
+                <ListResume list={courses} />
               </div>
             </div>
           </div>

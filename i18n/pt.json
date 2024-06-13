@@ -26,7 +26,7 @@
   "page.resume.jobs.list": [
     {
       "title": "Engenheiro de Software",
-      "company": "Buriti Investimentos",
+      "place": "Buriti Investimentos",
       "url": "https://buritiinvestimentos.com.br/",
       "startDate": "2023",
       "endDate": "Presente",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Desenvolvedor de Software",
-      "company": "Pilar",
+      "place": "Pilar",
       "url": "https://www.soupilar.com.br/",
       "startDate": "2022",
       "endDate": "2023",
@@ -42,7 +42,7 @@
     },
     {
       "title": "Estagiário de Front-end",
-      "company": "Rocket.Chat",
+      "place": "Rocket.Chat",
       "url": "https://www.rocket.chat/",
       "startDate": "Jan",
       "endDate": "Mar 2022",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Desenvolvedor de Software",
-      "company": "Simbiose Ventures",
+      "place": "Simbiose Ventures",
       "url": "https://www.simbioseventures.com/",
       "startDate": "Mai",
       "endDate": "Out 2020",
@@ -64,7 +64,7 @@
   "page.resume.education.list": [
     {
       "title": "Engenharia da Computação",
-      "institution": "Universidade Virtual de São Paulo",
+      "place": "Universidade Virtual de São Paulo",
       "url": "https://univesp.br/",
       "startDate": "2023",
       "endDate": "Presente",
@@ -72,7 +72,7 @@
     },
     {
       "title": "Engenharia Mecânica",
-      "institution": "Universidade de São Paulo",
+      "place": "Universidade de São Paulo",
       "url": "https://www5.usp.br/",
       "startDate": "2020",
       "endDate": "2022",
@@ -125,7 +125,7 @@
       "type": "Mobile",
       "url": null,
       "github-repo": "https://github.com/LucasFASouza/mtgtracker",
-      "image": "https://i.pinimg.com/originals/e5/3c/95/e53c9582e1a272a164a2b25df6029ff7.jpg"
+      "image": "https://github.com/LucasFASouza/mtgtracker/blob/main/thumb.png?raw=true"
     },
     {
       "title": "Projeto Nekton",
@@ -137,7 +137,7 @@
       "type": "Mobile",
       "url": "https://lucasfsouza.itch.io/projectnekton",
       "github-repo": null,
-      "image": "https://img.itch.zone/aW1nLzcxNTE3OTkucG5n/original/%2BdFs5f.png"
+      "image": "https://github.com/LucasFASouza/lucasfsouza/blob/main/public/shot%2088.png"
     }
   ]
 }

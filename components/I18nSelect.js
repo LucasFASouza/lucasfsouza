@@ -19,7 +19,7 @@ const I18nSelect = () => {
 
   return (
     <select
-      className="bg-accent-bg px-2 py-1 rounded"
+      className="bg-accent-dark px-2 py-1 rounded"
       value={selectedLocale}
       onChange={handleLocaleChange}
     >

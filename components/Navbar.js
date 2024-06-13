@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`z-50 flex justify-between items-center px-14 h-20 bg-primary-bg bg-opacity-85 backdrop-blur ${
+      className={`z-50 flex justify-between items-center px-14 h-20 bg-primary-dark bg-opacity-85 backdrop-blur ${
         isTop ? "" : "shadow-md shadow-neutral-900"
       }`}
       style={{
