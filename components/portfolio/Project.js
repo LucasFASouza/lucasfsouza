@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
           />
         </div>
         <div className="p-8">
-          <div className="uppercase tracking-wide text-sm text-accent-pink font-semibold">
+          <div className="uppercase tracking-wide text-sm text-accent-pink font-bold">
             {project.type}
           </div>
           <a
@@ -22,14 +22,17 @@ const ProjectCard = ({ project }) => {
             <span className="underline-transition">{project.title}</span>
           </a>
           <p className="mt-2 text-gray-400">{project["short-description"]}</p>
-          <div className="mt-4">
-            <a
-              href={project["github-repo"]}
-              className="text-accent-pink underline-transition"
-            >
-              View on GitHub
-            </a>
-          </div>
+          {project["github-repo"] && (
+            <div className="mt-4">
+              <a
+                href={project["github-repo"]}
+                className="text-accent-pink underline-transition"
+              >
+                View on GitHub
+              </a>
+            </div>
+          )}
+
           <div className="mt-4 flex flex-wrap">
             {project.stack.map((tech, index) => (
               <span
