@@ -31,8 +31,8 @@ const Resume = ({ dir }) => {
       <main dir={dir}>
         <Layout locales={locales}>
           <div className="flex flex-col gap-12 items-center">
-            <div className="flex flex-row gap-16">
-              <div className="w-1/2  flex flex-col justify-center gap-4">
+            <div className="flex flex-col md:flex-row gap-16">
+              <div className="md:w-1/2  flex flex-col justify-center gap-4">
                 <div className="text-4xl">
                   <FormattedMessage id="page.resume.jobs.title" />
                 </div>
@@ -41,15 +41,15 @@ const Resume = ({ dir }) => {
                 </p>
               </div>
 
-              <div className="w-1/2">
+              <div className="md:w-1/2">
                 <ListResume list={jobs} />
               </div>
             </div>
 
             <hr className="my-8 w-1/3" />
 
-            <div className="flex flex-row gap-16">
-              <div className="w-1/2  flex flex-col justify-center gap-4">
+            <div className="flex flex-col md:flex-row gap-16">
+              <div className="md:w-1/2 flex flex-col justify-center gap-4">
                 <div className="text-4xl">
                   <FormattedMessage id="page.resume.education.title" />
                 </div>
@@ -58,7 +58,7 @@ const Resume = ({ dir }) => {
                 </p>
               </div>
 
-              <div className="w-1/2">
+              <div className="md:w-1/2">
                 <ListResume list={courses} />
               </div>
             </div>

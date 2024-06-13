@@ -4,7 +4,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Project from "@/components/portfolio/Project";
+import Project from "@/components/Project";
 
 const Portfolio = ({ dir }) => {
   const intl = useIntl();
@@ -56,8 +56,8 @@ const Portfolio = ({ dir }) => {
 
       <main dir={dir}>
         <Layout locales={locales}>
-          <div className="flex">
-            <div className="w-1/3">
+          <div className="flex flex-col md:flex-row">
+            <div className="md:w-1/3">
               <select
                 multiple
                 value={selectedStacks}
@@ -72,7 +72,7 @@ const Portfolio = ({ dir }) => {
               </select>
             </div>
 
-            <div className="flex flex-wrap w-2/3">
+            <div className="flex flex-wrap md:w-2/3">
               {filteredProjects.map((project, index) => (
                 <Project key={index} project={project} index={index} />
               ))}

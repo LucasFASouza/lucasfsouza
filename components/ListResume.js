@@ -5,12 +5,12 @@ const ListResume = ({ list }) => {
     <ul>
       {list.map((item, index) => (
         <li key={index} className="py-5">
-          <div className="flex justify-between gap-12">
-            <p className="uppercase tracking-wide text-sm font-semibold opacity-60 w-1/4 text-end">
+          <div className="flex justify-between md:gap-12 flex-col md:flex-row">
+            <p className="uppercase tracking-wide text-sm font-semibold opacity-60 md:w-1/4 md:text-end">
               {item.startDate} {item.endDate && <span>- {item.endDate}</span>}
             </p>
 
-            <div className="w-3/4">
+            <div className="md:w-3/4">
               <h2 className="text-lg font-bold">
                 {item.title}{" "}
                 <div className="inline-block text-accent-pink ">

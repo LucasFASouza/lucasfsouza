@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`z-50 flex justify-between items-center px-14 h-20 bg-primary-dark bg-opacity-85 backdrop-blur ${
+      className={`z-50 flex justify-between items-center px-4 sm:px-8 md:px-14 h-20 bg-primary-dark bg-opacity-85 backdrop-blur ${
         isTop ? "" : "shadow-md shadow-neutral-900"
       }`}
       style={{
@@ -44,13 +44,13 @@ const Navbar = () => {
       }}
     >
       <Link
-        className="font-bold text-xl color-transition"
+        className="font-bold text-base sm:text-lg md:text-xl color-transition "
         href="/"
         locale={router.locale}
       >
         Lucas F. Souza
       </Link>
-      <ul className="flex gap-8 items-center">
+      <ul className="flex gap-4 sm:gap-6 md:gap-8 items-center">
         {links.map((link, index) => (
           <li key={index}>
             <Link href={link.href} locale={router.locale}>

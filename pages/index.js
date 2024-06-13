@@ -25,7 +25,7 @@ export default function Home({ dir }) {
       <main dir={dir}>
         <Layout>
           <div
-            className="flex flex-col justify-center w-1/2 gap-8"
+            className="flex flex-col justify-center w-full md:w-1/2 gap-8"
             style={{ height: "calc(100vh - 80px)" }}
           >
             <h1 className="text-4xl">
